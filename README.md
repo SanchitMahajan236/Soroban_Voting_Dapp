@@ -1,8 +1,9 @@
 # Soroba Vote Dapp with Freighter Wallet
 The Voting DAO app on Soroban leverages the cutting-edge features of Stellar's smart contract platform to facilitate decentralized decision-making within organizations. By utilizing Soroban's robust and scalable blockchain infrastructure, the app ensures secure, transparent, and efficient voting processes. Members of the DAO can propose, debate, and vote on various initiatives, with each action being recorded immutably on the blockchain. The app supports customizable voting mechanisms, such as single-choice, multiple-choice, and weighted voting, enabling DAOs to tailor the decision-making process to their specific needs. Additionally, Soroban's integration with Stellar's network ensures fast transaction times and low fees, making it an ideal solution for organizations of all sizes looking to implement a reliable and democratic governance structure. 
 
-<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/vote5.png" width="550" height="370">
-<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/vote6.png" width="550" height="370">
+![Screenshot 2024-05-26 234012](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/66bcfc55-caab-4ce5-aec8-fcbbe83b84e0)
+![Screenshot 2024-05-26 234104](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/13e08b05-1556-4ed6-812b-e3ccc59b35d0)
+![Screenshot 2024-05-26 234307](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/9e8c11a0-28d3-462e-914b-31388265b128)
 
 <h3>Repo Instructions</h3>
 
