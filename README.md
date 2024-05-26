@@ -1,22 +1,72 @@
-# Soroba Vote Dapp with Freighter Wallet
+# Soroban Vote Dapp
+
+![Screenshot 2024-05-26 234012](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/3b6e1006-026e-46d8-b1f8-098161192ca7)
+
+## About Me
+
+Sanchit Mahajan, currently a student pursuing a Bachelors in Technology from Maharaja Agrasen Institute of Technology, a tech enthusiast mainly working with web2 technologies and expanding my knowlegde in web3. I have experience in Full-Stack Web Development and Flutter App Development, previously developed with smart contracts using soldity and in the bootcamp got to work with Rust for writing smart contracts. I am also a keen learner and an anime-lover.
+
+## Description
+
 The Voting DAO app on Soroban leverages the cutting-edge features of Stellar's smart contract platform to facilitate decentralized decision-making within organizations. By utilizing Soroban's robust and scalable blockchain infrastructure, the app ensures secure, transparent, and efficient voting processes. Members of the DAO can propose, debate, and vote on various initiatives, with each action being recorded immutably on the blockchain. The app supports customizable voting mechanisms, such as single-choice, multiple-choice, and weighted voting, enabling DAOs to tailor the decision-making process to their specific needs. Additionally, Soroban's integration with Stellar's network ensures fast transaction times and low fees, making it an ideal solution for organizations of all sizes looking to implement a reliable and democratic governance structure. 
 
-![Screenshot 2024-05-26 234012](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/66bcfc55-caab-4ce5-aec8-fcbbe83b84e0)
-![Screenshot 2024-05-26 234104](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/13e08b05-1556-4ed6-812b-e3ccc59b35d0)
-![Screenshot 2024-05-26 234307](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/9e8c11a0-28d3-462e-914b-31388265b128)
+## Vision
 
-<h3>Repo Instructions</h3>
+The vision for the Voting DAO app on Soroban is to revolutionize organizational governance by harnessing the power of blockchain technology to create a truly democratic, transparent, and efficient decision-making platform. We aim to empower decentralized autonomous organizations (DAOs) with a seamless and secure voting system that upholds the principles of fairness and inclusivity. By providing a flexible and customizable voting framework, we envision a future where organizations of all types and sizes can engage their members in meaningful participation, fostering collaboration and innovation. Our ultimate goal is to set a new standard for governance in the digital age, ensuring that every voice is heard and every vote counts in shaping the direction and success of DAOs worldwide.
+
+## Programming Language
+
+- Rust
+- JavaScript
+- Web3
+
+## Setup Environment
 
 <h4>Step 1</h4>
 
-Download or clone this repo, then open the folder in VScode and 
+Download or clone this repo, then open the folder in VScode and in the terminal write:
+```shell
+cd soroban-vote-contract
+cargo test
+```
+```shell
+soroban contract build
+```
+```shell
+cargo build --target wasm32-unknown-unknown --release
+```
+```shell
+cargo install --locked soroban-cli --features opt
+```
+```shell
+soroban contract optimize --wasm target/wasm32-unknown-unknown/release/hello_world.wasm
+```
+```shell
+soroban network add `
+  --global testnet `
+  --rpc-url https://soroban-testnet.stellar.org:443 `
+  --network-passphrase "Test SDF Network ; September 2015"
+```
+```shell
+soroban keys generate --global alice --network testnet
+```
+```shell
+soroban keys address alice
+```
+```shell
+soroban contract deploy `
+  --wasm target/wasm32-unknown-unknown/release/hello_world.wasm `
+  --source alice `
+  --network testnet
+```
+Save the generated code for later use.
 
 <h4>Step 2</h4>
 
 Navigate to the repo folder once downloaded or cloned then install the NextJS instance.
 
 ```shell
-cd name-of-folder
+cd ..
 npm i
 ```
 
@@ -39,7 +89,6 @@ Install the Freighter browser wallet then create your wallet account. Switch it 
 Run the app, access it and test!
 
 ```shell
-cd name-of-folder
 npm run dev
 ```
 
