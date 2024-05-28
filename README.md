@@ -1,6 +1,6 @@
 # Soroban Vote Dapp
 
-![Screenshot 2024-05-26 234012](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/3b6e1006-026e-46d8-b1f8-098161192ca7)
+![Screenshot 2024-05-28 155527](https://github.com/SanchitMahajan236/Soroban_Voting_Dapp/assets/116559051/3f14105e-624d-4592-828e-705341239c9b)
 
 ## About Me
 
